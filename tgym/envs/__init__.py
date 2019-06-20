@@ -1,1 +1,1 @@
-from trading import SpreadTrading
+from tgym.envs.trading import SpreadTrading

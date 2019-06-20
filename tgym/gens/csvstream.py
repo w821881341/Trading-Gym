@@ -25,7 +25,7 @@ class CSVStreamer(DataGenerator):
     def _iterator_end(self):
         """Rewinds if end of data reached.
         """
-        print "End of data reached, rewinding."
+        print("End of data reached, rewinding.")
         super(self.__class__, self).rewind()
 
     def rewind(self):
